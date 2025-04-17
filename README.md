@@ -47,7 +47,4 @@ src/
 ## Deployment
 Refer to environment-specific deployment docs.
 
-## Support
-Contact development team for assistance.
 
-Note: Configure environment files before running.

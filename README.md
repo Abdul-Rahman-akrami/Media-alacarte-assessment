@@ -1,80 +1,53 @@
-# Media-alacarte-assessment
-Project Overview
-This Angular application serves as the portal for MediaAlacarte, providing a user interface for various operations and management tasks.
+# MediaAlacarte Portal - Angular Application
 
-Prerequisites
-Before you begin, ensure you have the following installed:
+## Project Overview
+Angular-based portal for MediaAlacarte operations and management.
 
-Node.js (version 16.x or later recommended)
+## Requirements
+- Node.js (v16+ recommended)
+- npm/yarn
+- Angular CLI (v19.2.5+)
 
-npm (comes with Node.js) or yarn
+## Setup Instructions
 
-Angular CLI (version 19.2.5 or compatible)
+1. Clone repository:
+   git clone <repo-url>
+   cd MediaAlacarte
 
-Getting Started
-Follow these steps to set up and run the application locally:
+2. Install dependencies:
+   npm install
 
-Clone the repository
+3. Start development server:
+   ng serve
 
+4. Access at:
+   http://localhost:4200/
 
-git clone <repository-url>
-cd MediaAlacarte
-Install dependencies
+## Development Commands
 
-
-npm install
-Run the development server
-
-
+Start dev server:
 ng serve
-Access the application
-Open your browser and navigate to:
 
-Copy
-http://localhost:4200/
-Development Workflow
-Running the Application
-Development mode (with live reload):
-
-
-ng serve
-Production-like build (optimized):
-
-
-ng serve --configuration production
-Building the Application
-Development build:
-
-
-ng build
-Production build (optimized for deployment):
-
-
+Production build:
 ng build --configuration production
-Testing
-Run unit tests:
 
-
+Run tests:
 ng test
-Run end-to-end tests (if configured):
-
-
 ng e2e
-Project Structure
-Key directories:
 
-src/app/ – Contains Angular components, services, and modules
-
-src/assets/ – Static assets (images, fonts, etc.)
-
-src/environments/ – Environment-specific configurations
-
-Generating New Components
-To create new components, services, or modules:
-
-
+Generate components:
 ng generate component component-name
-For a full list of available schematics:
 
+## Project Structure
+src/
+├── app/       # Components and modules
+├── assets/    # Static files
+└── environments/ # Config files
 
-ng generate --help
+## Deployment
+Refer to environment-specific deployment docs.
+
+## Support
+Contact development team for assistance.
+
+Note: Configure environment files before running.

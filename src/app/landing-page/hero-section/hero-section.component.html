@@ -1,0 +1,176 @@
+<div class="hero-section">
+  <!-- Navigation Bar -->
+  <nav class="hero-nav">
+    <section class="hero-logo">
+      <img src="../../../assets/logo.png" alt="Logo" />
+    </section>
+
+<!-- Mobile Menu Toggle Button -->
+    <div class="mobile-menu-toggle">
+      <button class="menu-toggle better small" (click)="toggleMobileMenu()">
+        <span class="toggle-inner">
+          <span class="toggle-bar top"></span>
+          <span class="text"></span>
+          <span class="toggle-bar bottom"></span>
+        </span>
+      </button>
+    </div>
+
+    <!-- Mobile Nav bar -->
+    <div #mobileMenuOverlay class="mobile-menu-overlay" (click)="closeMenu()">
+
+      <div
+        #mobileMenuContent
+        class="mobile-menu-content"
+        (click)="$event.stopPropagation()"
+      >
+      <hr>
+        <ul class="mobile-nav-links">
+          <li class="mobile-nav-link active">
+            <a href="">The Platform</a>
+          </li>
+          <li>
+            <a class="mobile-nav-link" href="">Features</a>
+          </li>
+          <li>
+            <a class="mobile-nav-link" href="">Benefits</a>
+          </li>
+          <li>
+            <a class="mobile-nav-link" href="">Request a Demo</a>
+          </li>
+          <li>
+            <a class="mobile-nav-link" href="">Contact Us</a>
+          </li>
+        </ul>
+        <button class="mobile-loginBtn">Login</button>
+      </div>
+    </div>
+
+    <!-- Desktop Navigation Links -->
+    <ul class="nav-links">
+      <li class="nav-link active">
+        <a href="">The Platform</a>
+      </li>
+      <li>
+        <a class="nav-link" href="">Features</a>
+      </li>
+      <li>
+        <a class="nav-link" href="">Benefits</a>
+      </li>
+      <li>
+        <a class="nav-link" href="">Request a Demo</a>
+      </li>
+      <li>
+        <a class="nav-link" href="">Contact Us</a>
+      </li>
+    </ul>
+
+    <!-- Desktop Login Button -->
+    <button class="loginBtn">Login</button>
+  </nav>
+
+  <!-- Hero Content -->
+  <div class="hero-content">
+    <!-- threejs animation of nodes -->
+    <div class="nodes-background">
+      <app-node-background></app-node-background>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="hero-bg">
+      <div class="hero-bg-left">
+        <img
+          src="../../../assets/hero-section-left.png"
+          alt=""
+          aria-hidden="true"
+        />
+      </div>
+      <div class="hero-bg-right">
+        <img
+          src="../../../assets/hero-section-right.png"
+          alt=""
+          aria-hidden="true"
+        />
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="hero-main">
+      <!-- tagline -->
+      <span class="hero-tagline">
+        #1 Media Marketplace for Advertisers & Agencies
+      </span>
+
+      <!-- Animated Text Scroller -->
+      <div class="hero-text-scroller">
+        <div class="hero-text-track" #textTrack>
+          <div class="hero-text-item hero-text-item--bottom">
+            Stronger Campaigns
+          </div>
+          <div class="hero-text-item hero-text-item--center">
+            Smarter Media Buying
+          </div>
+          <div class="hero-text-item hero-text-item--top text-color">
+            Bigger Impact
+          </div>
+        </div>
+      </div>
+
+      <!-- Call to Action Section -->
+      <div class="hero-cta">
+        <button #ctaButton class="hero-cta-button button button--stroke">
+          <span #ctaFlair class="hero-cta-flair button-flair"></span>
+          <span #ctaLabel class="hero-cta-label button-label"
+            >Start Your journey!</span
+          >
+        </button>
+
+        <img
+          class="hero-main-image"
+          src="../../../assets/hero-main-image.png"
+          alt="Media Marketplace Illustration"
+        />
+
+        <button class="hero-secondary-button">
+          <img class="" src="../../../assets/play-circle.png" alt="" />
+          <span>Learn More</span>
+        </button>
+      </div>
+
+      <div class="hero-ribbon">
+        <div class="ribbon-text-container ribbon-text-back">
+          <div class="ribbon-text-scroller">
+            <span class="ribbon-text"
+              >We simplify media buying with smarter strategies, seamless
+              execution, and measurable impact.</span
+            >
+            <span class="ribbon-text"
+              >We simplify media buying with smarter strategies, seamless
+              execution, and measurable impact.</span
+            >
+          </div>
+        </div>
+
+        <div class="ribbon-text-container ribbon-text-front">
+          <div class="ribbon-text-scroller">
+            <span class="ribbon-text"
+              >Coming soon: Smarter media solutions for agencies and media
+              owners!</span
+            >
+            <span class="ribbon-text"
+              >Coming soon: Smarter media solutions for agencies and media
+              owners!</span
+            >
+          </div>
+        </div>
+
+        <!-- Ribbon Decorative Background -->
+        <img
+          class="hero-ribbon-bg"
+          src="../../../assets/ribbon-background-image.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </div>
+</div>

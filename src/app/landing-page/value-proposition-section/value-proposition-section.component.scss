@@ -1,0 +1,751 @@
+.value-proposition-section {
+  height: 600px;
+  color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+
+  .text {
+    .bg-image {
+      position: absolute;
+      z-index: 1;
+      background: transparent;
+    }
+    position: relative;
+    z-index: 2;
+    width: 1135px;
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    background-color: #181818;
+    h3 {
+      position: relative;
+      z-index: 2;
+      width: 75%;
+      font-size: 44px;
+      font-weight: 600;
+      background: transparent;
+      line-height: 113%;
+      text-align: center;
+    }
+
+    section {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      gap: 40px;
+      background: transparent;
+
+      .benifits {
+        background: transparent;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+
+        .icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 24px;
+          height: 24px;
+          border-radius: 999px;
+          background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+          img {
+            background: transparent;
+          }
+        }
+      }
+      p {
+        background: transparent;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 159%;
+      }
+    }
+    .ctaButton-2 {
+      position: relative;
+      z-index: 2;
+      width: 397px;
+      height: 76px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+      font-size: 24px;
+      color: black;
+      line-height: 100%;
+      border-radius: 24px;
+      border: none;
+      background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .value-proposition-section {
+    height: 600px;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+    .text {
+      .bg-image {
+        position: absolute;
+        z-index: 1;
+        background: transparent;
+      }
+      position: relative;
+      z-index: 2;
+      width: 1135px;
+      height: 504px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 32px;
+      background-color: #181818;
+      h3 {
+        position: relative;
+        z-index: 2;
+        width: 75%;
+        font-size: 44px;
+        font-weight: 600;
+        background: transparent;
+        line-height: 113%;
+        text-align: center;
+      }
+
+      section {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        gap: 40px;
+        background: transparent;
+
+        .benifits {
+          background: transparent;
+          display: flex;
+          gap: 20px;
+          justify-content: center;
+          align-items: center;
+
+          .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 999px;
+            background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+            img {
+              scale: 0.8;
+              background: transparent;
+            }
+          }
+        }
+        p {
+          background: transparent;
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 159%;
+        }
+      }
+      .ctaButton-2 {
+        position: relative;
+        z-index: 2;
+        width: 397px;
+        height: 76px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 24px;
+        color: black;
+        line-height: 100%;
+        border-radius: 24px;
+        border: none;
+        background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+      }
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .value-proposition-section {
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10%;
+    .text {
+      overflow: hidden;
+      .bg-image {
+        scale: 0.8;
+        position: absolute;
+        z-index: 1;
+        background: transparent;
+      }
+      position: relative;
+      z-index: 2;
+      width: 70%;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 32px;
+      background-color: #181818;
+      h3 {
+        position: relative;
+        z-index: 2;
+        width: 88%;
+        font-size: 40px;
+        font-weight: 600;
+        background: transparent;
+        line-height: 113%;
+        text-align: center;
+      }
+
+      section {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        gap: 40px;
+        background: transparent;
+
+        .benifits {
+          background: transparent;
+          display: flex;
+          gap: 20px;
+          justify-content: center;
+          align-items: center;
+
+          .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 999px;
+            background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+            img {
+              scale: 0.8;
+              background: transparent;
+            }
+          }
+        }
+        p {
+          background: transparent;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 159%;
+        }
+      }
+      .ctaButton-2 {
+        position: relative;
+        z-index: 2;
+        width: 43%;
+        height: 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 22px;
+        color: black;
+        line-height: 100%;
+        border-radius: 24px;
+        border: none;
+        background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .value-proposition-section {
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10%;
+    .text {
+      overflow: hidden;
+      .bg-image {
+        scale: 0.8;
+        position: absolute;
+        z-index: 1;
+        background: transparent;
+      }
+      position: relative;
+      z-index: 2;
+      width: 80%;
+      height: 40vh;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 32px;
+      background-color: #181818;
+      h3 {
+        position: relative;
+        z-index: 2;
+        width: 88%;
+        font-size: 38px;
+        font-weight: 600;
+        background: transparent;
+        line-height: 113%;
+        text-align: center;
+      }
+
+      section {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        gap: 36px;
+        background: transparent;
+
+        .benifits {
+          background: transparent;
+          display: flex;
+          gap: 18px;
+          justify-content: center;
+          align-items: center;
+
+          .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 999px;
+            background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+            img {
+              scale: 0.6;
+              background: transparent;
+            }
+          }
+        }
+        p {
+          background: transparent;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 159%;
+        }
+      }
+      .ctaButton-2 {
+        position: relative;
+        z-index: 2;
+        width: 43%;
+        height: 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 20px;
+        color: black;
+        line-height: 100%;
+        border-radius: 24px;
+        border: none;
+        background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .value-proposition-section {
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10%;
+    .text {
+      overflow: hidden;
+      .bg-image {
+        scale: 0.7;
+        position: absolute;
+        z-index: 1;
+        background: transparent;
+      }
+      position: relative;
+      z-index: 2;
+      width: 85%;
+      height: 38vh;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 32px;
+      background-color: #181818;
+      h3 {
+        position: relative;
+        z-index: 2;
+        width: 90%;
+        font-size: 34px;
+        font-weight: 600;
+        background: transparent;
+        line-height: 113%;
+        text-align: center;
+      }
+
+      section {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        gap: 34px;
+        background: transparent;
+
+        .benifits {
+          background: transparent;
+          display: flex;
+          gap: 17px;
+          justify-content: center;
+          align-items: center;
+
+          .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 999px;
+            background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+            img {
+              scale: 0.6;
+              background: transparent;
+            }
+          }
+        }
+        p {
+          background: transparent;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 159%;
+        }
+      }
+      .ctaButton-2 {
+        position: relative;
+        z-index: 2;
+        width: 40%;
+        height: 16%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 16px;
+        color: black;
+        line-height: 100%;
+        border-radius: 24px;
+        border: none;
+        background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .value-proposition-section {
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    margin-bottom: 0%;
+    .text {
+      overflow: hidden;
+      .bg-image {
+        scale: 0.7;
+        position: absolute;
+        z-index: 1;
+        background: transparent;
+      }
+      position: relative;
+      z-index: 2;
+      width: 88%;
+      height: 38vh;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 32px;
+      background-color: #181818;
+      h3 {
+        position: relative;
+        z-index: 2;
+        width: 95%;
+        font-size: 32px;
+        font-weight: 600;
+        background: transparent;
+        line-height: 113%;
+        text-align: center;
+      }
+
+      section {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        gap: 30px;
+        background: transparent;
+
+        .benifits {
+          background: transparent;
+          padding: 0 2px;
+          display: flex;
+          gap: 12px;
+          justify-content: center;
+          align-items: center;
+
+          .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 999px;
+            background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+            img {
+              scale: 0.6;
+              background: transparent;
+            }
+          }
+        }
+        p {
+          background: transparent;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 159%;
+        }
+      }
+      .ctaButton-2 {
+        position: relative;
+        z-index: 2;
+        width: 45%;
+        height: 16%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 15px;
+        color: black;
+        line-height: 100%;
+        border-radius: 24px;
+        border: none;
+        background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .value-proposition-section {
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10%;
+    .text {
+      overflow: hidden;
+      .bg-image {
+        scale: 0.8;
+        position: absolute;
+        z-index: 1;
+        background: transparent;
+      }
+      position: relative;
+      z-index: 2;
+      width: 85%;
+      height: 42vh;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 32px;
+      background-color: #181818;
+      h3 {
+        position: relative;
+        z-index: 2;
+        width: 95%;
+        font-size: 24px;
+        font-weight: 600;
+        background: transparent;
+        line-height: 113%;
+        text-align: center;
+      }
+
+      section {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 30px;
+        background: transparent;
+
+        .benifits {
+          background: transparent;
+          padding: 0 2px;
+          display: flex;
+          gap: 12px;
+          justify-content: center;
+          align-items: center;
+
+          .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 999px;
+            background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+            img {
+              scale: 0.7;
+              background: transparent;
+            }
+          }
+        }
+        p {
+          background: transparent;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 159%;
+        }
+      }
+      .ctaButton-2 {
+        position: relative;
+        z-index: 2;
+        width: 60%;
+        height: 13%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 16px;
+        color: black;
+        line-height: 100%;
+        border-radius: 8px;
+        border: none;
+        background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+      }
+    }
+  }
+}
+@media (max-width: 480px) {
+  .value-proposition-section {
+    height: 400px;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10%;
+    .text {
+      overflow: hidden;
+      .bg-image {
+        scale: 0.7;
+        position: absolute;
+        z-index: 1;
+        background: transparent;
+      }
+      position: relative;
+      z-index: 2;
+      width: 85%;
+      height: 38vh;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 32px;
+      background-color: #181818;
+      h3 {
+        position: relative;
+        z-index: 2;
+        width: 80%;
+        font-size: 16px;
+        font-weight: 600;
+        background: transparent;
+        line-height: 113%;
+        text-align: center;
+      }
+
+      section {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 15px;
+        background: transparent;
+
+        .benifits {
+          background: transparent;
+          padding: 0 2px;
+          display: flex;
+          gap: 12px;
+          justify-content: center;
+          align-items: center;
+
+          .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 18px;
+            height: 18px;
+            border-radius: 999px;
+            background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+            img {
+              scale: 0.7;
+              background: transparent;
+            }
+          }
+        }
+        p {
+          background: transparent;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 159%;
+        }
+      }
+      .ctaButton-2 {
+        position: relative;
+        z-index: 2;
+        width: 60%;
+        height: 13%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 14px;
+        color: black;
+        line-height: 100%;
+        border-radius: 8px;
+        border: none;
+        background: linear-gradient(to bottom, #ef4f4f, #eb3154, #d9207c);
+      }
+    }
+  }
+}

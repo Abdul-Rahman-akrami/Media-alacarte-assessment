@@ -1,0 +1,64 @@
+<!-- Services Section Container -->
+<div class="service-section">
+
+  <!-- Section Header with Background Elements -->
+  <div class="header">
+    <!-- Decorative background dots pattern -->
+    <img class="bg-dots" src="../../../assets/subsection-dots.svg.png" alt="Decorative dots background" />
+
+    <!-- Color overlay background -->
+    <img class="bg-color" src="../../../assets/services-section-color.png" alt="Color background overlay" />
+
+    <!-- Header content with title and icon -->
+    <div class="header-title">
+      <!-- Services icon -->
+      <div class="services-icon">
+        <img src="../../../assets/icons/grommet-icons_services.png" alt="Services icon" />
+      </div>
+
+      <!-- Section title -->
+      <h3>Our Services</h3>
+    </div>
+  </div>
+
+  <!-- Services Cards Container -->
+  <div class="services-container">
+    <!-- Background image for services section -->
+    <img class="services-bg" src="../../../assets/services-bg.png" alt="Services section background" />
+
+    <!-- Individual Service Card - *ngFor creates one per service in array -->
+    <div *ngFor="let service of services"
+         class="service-card"
+         [class.selected]="service.selected"
+         (click)="selectCard(service)">
+
+      <!-- Card Image Container with Gradient Overlay -->
+      <div class="image-container">
+        <!-- Service image - dynamically populated from service object -->
+        <img src="{{ service.image }}" alt="{{ service.title }}" />
+
+        <!-- Gradient overlay for better text readability -->
+        <div class="gradient-overlay"></div>
+      </div>
+
+      <!-- Side Heading (visible by default) -->
+      <div class="side-heading">
+        <h2>{{ service.title }}</h2>
+      </div>
+
+      <!-- Expanded Content (shown on hover/selection) -->
+      <div class="image-text">
+        <!-- Text content -->
+        <div class="text">
+          <h2>{{ service.title }}</h2> <!-- Repeated for styling purposes -->
+          <p>{{ service.description }}</p> <!-- Service description from object -->
+        </div>
+
+        <!-- Call-to-action arrow -->
+        <div class="visit-arrow">
+          <img src="../../../assets/icons/arrow.svg" alt="Visit service" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

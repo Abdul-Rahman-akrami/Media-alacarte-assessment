@@ -38,13 +38,4 @@ ng e2e
 Generate components:
 ng generate component component-name
 
-## Project Structure
-src/
-├── app/       # Components and modules
-├── assets/    # Static files
-└── environments/ # Config files
-
-## Deployment
-Refer to environment-specific deployment docs.
-
 

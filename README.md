@@ -1,4 +1,4 @@
-# MediaAlacarte Portal - Angular Application
+# Media Alacarte Website
 
 ## Project Overview
 Angular-based portal for MediaAlacarte operations and management.
